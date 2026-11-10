@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: v1.2.1
+          repository: Minireel/HGhub
+          ref: 5f88442961ad9cdac50af4421cf76b3ac06d64e2
 
       - uses: pnpm/action-setup@v4
         with:
